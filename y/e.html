@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Úspěchy a trofeje</title>
+    <link rel="stylesheet" href="bozopol.css">
+</head>
+<body>
+    <h1>Můj seznam úspěchů a trofejí</h1>
+    
+    <form>
+        <!-- Formulář pro přidání úspěchu/trofeje -->
+        <label for="gameTitle">Název hry:</label>
+        <input type="text" id="gameTitle" required>
+        
+        <label for="trophyTitle">Název úspěchu/trofeje:</label>
+        <input type="text" id="trophyTitle" required>
+        
+        <label for="difficulty">Obtížnost:</label>
+        <input type="text" id="difficulty">
+        
+        <label for="achievementDate">Datum získání:</label>
+        <input type="date" id="achievementDate">
+        
+        <button type="submit">Přidat</button>
+    </form>
+
+    <!-- Zde bude zobrazen seznam úspěchů/trofejí -->
+    <ul id="trophyList">
+        <!-- Položky seznamu budou generovány dynamicky v JavaScriptu -->
+    </ul>
+
+    <script src="suss.js"></script>
+</body>
+</html>
+<ul id="trophyList">
+    <!-- Items will be dynamically generated here -->
+  </ul>
+  <button id="sortDifficulty">Sort by Difficulty</button>
+<button id="sortDate">Sort by Date</button>

@@ -1,0 +1,17 @@
+li.achievement {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    list-style-type: none;
+}
+
+.difficulty-1 {
+    background: linear-gradient(to right, #4CAF50, #FF5722);
+}
+
+.difficulty-2 {
+    background: linear-gradient(to right, #4CAF50, #FF5722);
+}
+
+/* ... Repeat for other difficulty levels up to 10 */
+
